@@ -1,0 +1,23 @@
+.Swiper_container{
+    width: 80%;
+   margin: 0 auto;
+   margin-top: 50px;
+    
+}
+
+.phone_wrapper{
+    width: 280px;
+    height: 86px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    /* margin-left: 50px; */
+    border-radius: 5px;
+}
+
+.phone_wrapper img{
+    width: 50px;
+    height: 80px;
+}

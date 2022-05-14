@@ -1,0 +1,52 @@
+.payment_container{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.payment_container h1{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.payment_wrap{
+    width: 80%;
+    height: 220px;
+    background-color: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+.payment_tab_wrap{
+    width: 305px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.item_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(234, 234, 234);
+}
+
+.payment_text_p{
+    font-size: 15px;
+    color: rgb(164, 164, 164);
+    text-align: center;
+    width: 220px;
+}
+
+.payment_seperator{
+    width: 1px;
+    height: 80%;
+    background-color: gainsboro;
+}

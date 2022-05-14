@@ -1,0 +1,13 @@
+.hit_product_price{
+    background-color: #FF3600;
+    color: #fff;
+    width: 62px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 500;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

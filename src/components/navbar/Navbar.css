@@ -1,0 +1,584 @@
+.container{
+    width: 100%;
+}
+
+.nav_wrap{
+    width: 100%;
+    height: 36px;
+    background-color: #333333;
+}
+
+.nav{
+    width: 80%;
+    height: 36px;
+    margin: 0 auto;
+}
+
+.nav_ul{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.nav_ul li{
+    margin: 0px 50px 0px 0px;
+    color: #fff;
+}
+
+
+
+.lang_wrap{
+    width: 70px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.lang_wrap > svg{
+    color: #fff;
+    font-size: 17px;
+}
+
+.lang_wrap > select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* Searchbar START */
+
+.searchbar_container{
+    width: 100%;
+    height: 132px;
+}
+
+.search_wrap{
+    width: 80%;
+    height: 62px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search_input_wrap{
+    background-color: orange;
+    border-radius: 5px;
+    width: 638px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.search_input{
+    width: 590px;
+    height: 40px;
+    margin-left: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.search_input_wrap select{
+    width: 150px;
+    height: 38px;
+    border: none;
+    outline: none;
+    margin-left: 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+   background-color: rgb(248, 248, 248);
+}
+
+.search_input input{
+    width: 400px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+.voice_icon{
+    font-size: 23px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.search_icon{
+    width: 80px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.search_ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.count_product{
+    padding: 0 3px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    right: 220px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search_ul li{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 64px;
+}
+
+.search_ul li svg{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* Navbar Tabs */
+
+.nav_tab_collection{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.hover_katalog_wrap{
+    width: 100%;
+}
+
+.katalog{
+    min-width: 130px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FBC100;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Katalog hover */
+
+.hover_container{
+    display: none;
+}
+
+.hover_item_wrapper{
+    width: 100%;
+    height: 569px;
+    box-shadow: 10px 0px 5px rgb(205, 205, 205);
+    z-index: 15;
+}
+
+.hover_sidebar{
+    width: 80%;
+    height: 569px;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.sidebar_item_wrap{
+    width: 370px;
+    height: 100%;
+    /* background-color: blue; */
+    overflow-x: hidden;
+}
+
+.sidebar_item_wrap::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+    border-right: 1px solid gainsboro;
+}
+
+.sidebar_item_wrap::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(224, 224, 224);
+}
+
+.sidebar_item{
+    width: 95%;
+    height: 50px;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.sidebar_item:hover{
+    background-color: #ffdc69d7;
+}
+
+.sidebar_arrow{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.sidebar_text_wrapper{
+    width: 270px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.katalog:hover .hover_container{
+    min-width: 1920px;
+    height: 569px;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    top: 45px;
+    padding-top: 10px;
+    z-index: 10;   
+    margin-left: 1410px;
+}
+
+
+
+.katalog img{
+    width: 25px;
+    height: 25px;
+}
+
+.katalog h1{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav_tabs_ul{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 500;
+    margin: 0px 50px 0px 0px;
+}
+
+.nav_tabs_ul li{
+    font-size: 15px;
+    margin-left: 15px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+/* Login start */
+
+.login_container{
+    width: 480px;
+    height: 309px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 700px;
+    transition: 0.5s;
+}
+
+.login_text{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7F7;
+}
+
+.sign_in{
+    width: 96px;
+    height: 62px;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+}
+
+.phone_text_login{
+    position: absolute;
+    top: 90px;
+    left: 48px;
+    color: #696969;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.register{
+    width: 176px;
+    height: 62px;
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.close_login{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-left: 160px;
+    margin-top: 15px;
+}
+
+
+.sign_in_wrap{
+    width: 480px;
+    height: 247px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.sign_in_wrap input{
+    width: 400px;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.sign_in_wrap input:focus{
+    border: 1px solid #000;
+    transition: 0.4s;
+}
+
+.sign_in_wrap button{
+    width: 400px;
+    height: 44px;
+    border: none;
+    outline: none;
+    background-color: #FBC100;
+    border-radius: 5px;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.register_container{
+    width: 480px;
+    height: 392px;
+    background-color: #fff;
+    position: absolute;
+    top: 62px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  
+}
+
+.register_input_wrap{
+    width: 400px;
+    height: 312px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.register_input_wrap input{
+    width: 400px;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.register_input_wrap input:focus{
+    border: 1px solid #000;
+    transition: 0.4s;
+}
+
+.checkbox_wrap{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.register_input_wrap button{
+    width: 100%;
+    height: 44px;
+    background-color: #FBC100;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.phone_text{
+    position: absolute;
+    top: 34px;
+    left: 50px;
+    z-index: 3;
+    background-color: #fff;
+    font-size: 12px;
+    color: #696969;
+}
+
+.with_login_container{
+    width: 480px;
+    height: 319px;
+    background-color: #fff;
+    position: absolute;
+    display: none;
+    top: 62px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.login_input_wrap{
+    width: 400px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.login_input_wrap input{
+    width: 400px;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.login_input_wrap button{
+    width: 100%;
+    height: 44px;
+    background-color: #FBC100;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+/* Card Start */
+
+.card_container{
+    width: 900px;
+    height: 422px;
+    background-color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 15;
+    margin-left: 500px;
+    transition: 0.5s;
+}
+
+.close_card{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.card_text_wrapper{
+    width: 820px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.card_text_wrapper h1{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.card_product_wrap{
+    width: 820px;
+    height: 294px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.card_product_text{
+    width: 350px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_product_text img{
+    width: 64px;
+    height: 64px;
+}
+
+.card_text_h1 {
+    width: 184px;
+    height: 56px;
+
+}
+
+.card_text_h1 h1{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #333333;
+}
+
+.card_buy_btn{
+    width: 128px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #FBC100;
+}
+.fade{
+    width: 100%;
+    height: 100vh;
+    background-color: #808080b3;
+    position: absolute;
+    z-index: 9;
+}
+

@@ -1,0 +1,13 @@
+.collection_product_price{
+    background-color: #54C6EB;
+    color: #fff;
+    width: 95px;
+    height: 22px;
+    font-size: 12px;
+    font-weight: 500;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}   
