@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./AddProduct.css"
+import { useHistory } from "react-router-dom"
 import axios from 'axios';
 
 const AddProduct = () => {
@@ -8,6 +9,8 @@ const AddProduct = () => {
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
   const [type, setType] = useState("");
+
+  const history = useHistory()
 
 
   const handleSubmit = async (e) => {
@@ -18,6 +21,7 @@ const AddProduct = () => {
       price, 
       type
     })
+    history.push("/")
   }
 
   return (

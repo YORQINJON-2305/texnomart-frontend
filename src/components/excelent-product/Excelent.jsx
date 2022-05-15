@@ -39,7 +39,7 @@ const Excelent = () => {
     >
 
         {
-            products?.products?.filter(ft => ft.type?.includes(" narx")).map(product => (
+            products?.products?.filter(ft => ft.type?.includes("narx")).map(product => (
                 <SwiperSlide key={product._id}>
                 <div className="excelent_product" >
                       <div  className='excelent_price'><span >Zo'r narx</span></div>
